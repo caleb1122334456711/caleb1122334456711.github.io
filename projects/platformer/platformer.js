@@ -40,7 +40,7 @@ $(function () {
     createPlatform(450, 600, 160, 25)
 
     // platform 3 
-    createPlatform(600, 490, 160, 25)
+    createPlatform(770, 490, 160, 25)
 
     //platform 4
     createPlatform(1000, 450, 160, 25)
@@ -63,9 +63,17 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
     
     
-    
-    
-    
+    // collectable A
+    createCollectable("steve", 350, 200, 00, 00)
+
+    // collectable B
+    createCollectable("diamond", 630, 200, 00, 00)
+
+    // collectable C
+    createCollectable("kennedi", 850, 200, 00, 00)
+
+     // collectable D ()
+    createCollectable ("grace", 75, 150, 00, 00 )
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
@@ -73,7 +81,17 @@ $(function () {
     // example usage: createCannon(side, position, delay)
 
 
+    //Cannon W
+    createCannon("left", 250, 1000)
 
+    //cannon X
+    createCannon("bottom", 500, 1000)
+
+    // cannon Y
+    createCannon("bottom", 1050, 1000)
+
+    // cannon Z
+    createCannon("top", 700, 1000)  
 
 
 
